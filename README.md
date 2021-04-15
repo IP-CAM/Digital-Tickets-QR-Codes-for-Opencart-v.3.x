@@ -1,4 +1,4 @@
-# OpenCart-for-Shows-
+# OpenCart-for-Shows
 ## OpenCart V3 Mod. for digital tickets & QR Codes. 
  
 eCommerce store which sells online tickets, and each tickets comes with a unique QR code. The QR code is then scanned at the day/night of the event, using a simple android app which decodes the QR code.
@@ -9,10 +9,8 @@ The customer then receives an email with the QR code, which they print out or sh
 In order for this to work, YOU MUST **USE PAYPAL EXPRESS!** PayPal Express guarantees the customer to re-direct to the success.php page, which runs the script to generate the QR code. If success.php never lands, then no ticket & QR code will be generated.
 
 This works and can be used live, however there are better solutions than using OpenCart. I personally think OpenCart isn't the best platform for this kind of products.
+
 -------------------------------------------------------------------------------------------------------------------------------
-
-
-
 
 The two most important components are the controller files:
 checkout / success.php
